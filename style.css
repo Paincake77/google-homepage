@@ -1,0 +1,137 @@
+#glogo {
+    width: auto;
+    padding-top: 50px;
+    padding-left: 50vw;
+}
+#dglogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#navdiv {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+}
+#navdiv a {
+    display: block;
+}
+li {
+    display: inline;
+}
+.navlis {
+    float: right;
+}
+/*.navlis img {
+    HOW THE HELL WILL I PLACE THIS SHIT!?
+}*/
+a {
+    text-decoration: none;
+}
+#fake {
+    width: 7%;
+    border-radius: 100%;
+}
+#fake:hover {
+    -webkit-filter: brightness(70%);
+    filter: brightness(70%);
+ }
+ #sbar {
+    word-wrap: break-word;
+    outline: none;
+    border: none;
+    width: 80%;
+    padding-left: 40px;
+ }
+ #dsearch {
+     border:lightsteelblue 1px solid;
+     border-radius: 30px;
+     position: relative;
+     width: 40%;
+     padding: 10px;
+     padding-top: 15px;
+     margin-left: 30vw;
+     margin-top: 5vh;
+ }
+ #dsearch:hover {
+     box-shadow: lightgray 20px 20px 20px;
+ }
+ .sicon {
+     width: 20px;
+ }
+ #smike {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 10px;
+    padding-right: 13px;
+ }
+ #slens {
+     position: absolute;
+     left: 0;
+     padding-left: 13px;
+     margin-top: -3px;
+ }
+ .botan {
+     background-color: white;
+     border: none; 
+     padding: 10px;
+     padding-left: 15px;
+     padding-right: 15px;
+ }
+ .botan:hover {
+    box-shadow: rgba(211, 211, 211, 0.979) 0px 0px 5px;
+ }
+ #tnavi:hover {
+     text-decoration: underline;
+ }
+ #buttOn {
+     padding-left: 40vw;
+     padding-top: 4vh;
+ }
+footer {
+    bottom: 0;
+    position: fixed;
+    background-color: #f2f2f2;
+    color: grey;
+    font-family: sans-serif;
+    width: 100%;
+}
+footer ul {
+    margin-top: 5px;
+}
+#right {
+    float: right;
+    padding-left: 20vw;
+    padding-right: 50px;
+}
+#right a {
+    color: rgba(0,0,0,.54);
+    font-size: 14px;
+    padding: 10px;
+}
+#right a:hover {
+    text-decoration: underline;
+}
+#left {
+    float: left;
+}
+#left a {
+    color: rgba(0,0,0,.54);
+    font-size: 14px;
+    padding: 10px;
+}
+#left a:hover {
+    text-decoration: underline;
+}
+#arg {
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    padding: 15px;
+}
+#disc {
+    padding-left: 45vw;
+    font-size: 13px;
+    font-family: sans-serif;
+}
